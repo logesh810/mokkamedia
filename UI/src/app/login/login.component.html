@@ -1,0 +1,34 @@
+<div class="loginContainer">
+
+
+  <div class="main">
+    <h1>Mokka Media</h1>
+    <h3>Enter your login credentials</h3>
+    <small class="error" *ngIf="errorMessage">{{errorMessage}}</small>
+    <form #f="ngForm" (ngSubmit)="login(f)">
+      <label for="userName">
+        Username:
+      </label>
+      <input type="text" id="userName" name="userName" [(ngModel)]="userData.userName" placeholder="Enter your Username"
+        required>
+
+      <label for="userPassword">
+        Password:
+      </label>
+      <input type="password" id="userPassword" [(ngModel)]="userData.userPassword" name="userPassword"
+        placeholder="Enter your Password" required>
+
+      <div class="wrap">
+        <button>
+          Submit
+        </button>
+      </div>
+    </form>
+    <p>Not registered?
+      <span class="register" (click)="register()"  style="text-decoration: none;">
+        Create an account
+      </span>
+    </p>
+  </div>
+
+</div>
