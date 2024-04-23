@@ -9,7 +9,7 @@ This is a test project to demonstrate using Intern with Angular 4+. It contains 
 ### Clone the repo
 
 ```shell
-git clone [https://github.com/bryanforbes/intern-angular](https://github.com/logesh810/mokkamedia.git)
+git clone [[https://github.com/bryanforbes/intern-angular](https://github.com/logesh810/mokkamedia)](https://github.com/logesh810/mokkamedia.git)
 cd mokkamedia
 ```
 
